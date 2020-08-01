@@ -9,7 +9,7 @@ import locale from "view-design/dist/locale/en-US";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = true;
 
 Vue.use(ViewUI, { locale: locale });
 

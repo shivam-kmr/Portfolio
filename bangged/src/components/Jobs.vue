@@ -1,9 +1,7 @@
 <template>
   <div>
     <span @click="jobsModal = true">
-      <Poptip trigger="hover" content="Smash me!" placement="bottom">
-        <h3>Companies I have worked <Icon type="ios-at-outline" /></h3>
-      </Poptip>
+      <Button type="info" shape="circle">Conspectus</Button>
     </span>
     <Modal
       v-model="jobsModal"
